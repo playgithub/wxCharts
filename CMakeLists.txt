@@ -50,7 +50,7 @@ target_include_directories(${PROJECT_NAME}
                                $<INSTALL_INTERFACE:${CMAKE_INSTALL_FULL_INCLUDEDIR}>
                                $<INSTALL_INTERFACE:${CMAKE_INSTALL_FULL_INCLUDEDIR}/${PROJECT_NAME}>)
 
-target_link_libraries(${PROJECT_NAME} PUBLIC wxwidgets::core wxwidgets::base)
+target_link_libraries(${PROJECT_NAME} PUBLIC wxwidgets::wxwidgets)
 
 ###########
 # install #
